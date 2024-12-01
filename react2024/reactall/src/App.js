@@ -8,6 +8,7 @@ import UserForm from './Hooks/UseState/UserForm';
 import Users from './Hooks/UseState/Users';
 import Theme from './Hooks/UseState/Theme';
 import Main from './Hooks/UseEffect/Main';
+import SearchFilter from './components/SearchFilter';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
     {/* <UserForm/> */}
     {/* <Users/> */}
     {/* <Theme/> */}
-    <Main/>
+    {/* <Main/> */}
+    <SearchFilter/>
     </>
    
   )
